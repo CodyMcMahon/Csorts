@@ -1,9 +1,4 @@
-void swap(void** a,void** b){
-  void* temp;
-  temp = *a;
-  *a = *b;
-  *b = temp;
-}
+
 //Lomuto partition scheme
 int part(void** a, int l,int h, int(*c)(void*,void*)){
   

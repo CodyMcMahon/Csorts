@@ -13,6 +13,9 @@ void shellsort(void** arr, int size, int(*comp)(void*,void*)){
           if(comp(arr[y],arr[y+gap[i]]) > 0){
             swap(&arr[y],&arr[y+gap[i]]);
           }
+          else{
+            break;
+          }
         }
       }
     }

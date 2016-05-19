@@ -8,5 +8,7 @@ void shellsort(void** arr, int size, int(*comp)(void*,void*));
 void insertionsort(void** arr, int size, int(*comp)(void*,void*));
 void heapsort(void** arr, int size, int(*comp)(void*,void*));
 void mergesort(void** arr, int size, int(*comp)(void*,void*));
+void bogosort(void** arr, int size, int(*comp)(void*,void*));
+void worstsort(void** arr, int size, int(*comp)(void*,void*));
 void swap(void** a,void** b);
 #endif
